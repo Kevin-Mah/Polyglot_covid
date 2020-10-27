@@ -88,15 +88,15 @@ directory '/opt/installers'
 
 # NodeJS (more modern than Ubuntu nodejs package) and NPM
 
-#remote_file '/opt/installers/node-setup.sh' do
-#  source 'https://deb.nodesource.com/setup_14.x'
-#  mode '0755'
-#end
-#execute '/opt/installers/node-setup.sh' do
-#  creates '/etc/apt/sources.list.d/nodesource.list'
-#  notifies :run, 'execute[apt-get update]', :immediately
-#end
-#package ['nodejs']
+remote_file '/opt/installers/node-setup.sh' do
+  source 'https://deb.nodesource.com/setup_14.x'
+  mode '0755'
+end
+execute '/opt/installers/node-setup.sh' do
+  creates '/etc/apt/sources.list.d/nodesource.list'
+  notifies :run, 'execute[apt-get update]', :immediately
+end
+package ['nodejs']
 
 
 # Go (more modern than Ubuntu golang-go package)
