@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+
+    <title>Canada Coronavirus Cases</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="text-center mt-4 heading">Canada Daily Cases</h1>
+        <canvas id="myChart1" width="350px" height="200px"></canvas>
+    </div>
+    <div class="container">
+        <h1 class="text-center mt-4 heading">Canada Daily Deaths</h1>
+        <canvas id="myChart2" width="350px" height="200px"></canvas>
+    </div>
+    <div class="container">
+        <h1 class="text-center mt-4 heading">Canada/US Total Coronavirus Cases</h1>
+        <canvas id="myChart" width="350px" height="200px"></canvas>
+    </div>
+        <div class="container">
+        <h1 class="text-center mt-4 heading">Top 5 Provinces</h1>
+        <canvas id="myChart3" width="350px" height="200px"></canvas>
+    </div>
+        <div class="container">
+        <canvas id="chartOnt" width="350px" height="200px"></canvas>
+        <p id="onttext"></p>
+        <canvas id="chartQue" width="350px" height="200px"></canvas>
+        <p id="quetext"></p>
+        <canvas id="chartBc" width="350px" height="200px"></canvas>
+        <p id="bctext"></p>
+        <canvas id="chartAb" width="350px" height="200px"></canvas>
+        <p id="abtext"></p>
+        <canvas id="chartMan" width="350px" height="200px"></canvas>
+        <p id="mantext"></p>
+        <h1 class="text-center mt-4 heading">Correlations to Death</h1>
+        <canvas id="smkcorr" width="350px" height="200px"></canvas>
+        <p id="smkcoef"></p>
+        <canvas id="agecorr" width="350px" height="200px"></canvas>
+        <p id="agecoef"></p>
+    </div>
+    <div class="myList"></div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.js"></script>
+    <script src="./scripts.js"></script>
+</body>
+
+</html>

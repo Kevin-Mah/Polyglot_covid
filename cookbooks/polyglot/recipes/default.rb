@@ -38,9 +38,9 @@ directory '/opt/installers'
 
 # Other core language tools you might want
 
-#package ['python3', 'python3-pip', 'python3-dev']  # Python
+package ['python3', 'python3-pip', 'python3-dev']  # Python
 #package ['ghc', 'libghc-random-dev', 'cabal-install']  # Haskell
-#package 'golang-go'  # Go
+package 'golang-go'  # Go
 #package 'erlang'  # Erlang
 #package 'ocaml-nox'  # OCaml
 #package ['rustc', 'cargo']  # Rust
@@ -101,8 +101,8 @@ package ['nodejs']
 
 # Go (more modern than Ubuntu golang-go package)
 
-#execute 'snap install --classic go' do
-#end
+execute 'snap install --classic go' do
+end
 
 # SWIG
 
@@ -190,4 +190,10 @@ package ['nodejs']
 # GraalVM's LLVM (C, C++) tools
 #execute '/opt/graalvm/bin/gu install llvm-toolchain' do
 #  creates "/opt/#{graalvm_directory}/bin/lli"
+#end
+
+#execute 'python3 server.py &' do
+#  cwd project_home
+#  user username
+#  environment 'HOME' => user_home
 #end

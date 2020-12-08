@@ -1,0 +1,800 @@
+[
+  {
+    "country": "Albania",
+    "smokingrate": 29.4,
+    "cases": 39014,
+    "death100k": 28.68,
+    "medage": 32.9
+  },
+  {
+    "country": "Andorra",
+    "smokingrate": 32.5,
+    "cases": 6790,
+    "death100k": 98.69,
+    "medage": 44.3
+  },
+  {
+    "country": "Argentina",
+    "smokingrate": 23.95,
+    "cases": 1432570,
+    "death100k": 87.49,
+    "medage": 31.7
+  },
+  {
+    "country": "Armenia",
+    "smokingrate": 26.9,
+    "cases": 135967,
+    "death100k": 74.29,
+    "medage": 35.1
+  },
+  {
+    "country": "Australia",
+    "smokingrate": 14.9,
+    "cases": 27923,
+    "death100k": 3.63,
+    "medage": 38.7
+  },
+  {
+    "country": "Austria",
+    "smokingrate": 35.15,
+    "cases": 285489,
+    "death100k": 37.58,
+    "medage": 44
+  },
+  {
+    "country": "Azerbaijan",
+    "smokingrate": 23.45,
+    "cases": 125602,
+    "death100k": 14.41,
+    "medage": 32.3
+  },
+  {
+    "country": "Bahrain",
+    "smokingrate": 28.2,
+    "cases": 87137,
+    "death100k": 21.73,
+    "medage": 32.3
+  },
+  {
+    "country": "Bangladesh",
+    "smokingrate": 20.25,
+    "cases": 467225,
+    "death100k": 4.14,
+    "medage": 26.7
+  },
+  {
+    "country": "Barbados",
+    "smokingrate": 7,
+    "cases": 278,
+    "death100k": 2.44,
+    "medage": 38.6
+  },
+  {
+    "country": "Belarus",
+    "smokingrate": 28.4,
+    "cases": 138219,
+    "death100k": 12.29,
+    "medage": 40
+  },
+  {
+    "country": "Belgium",
+    "smokingrate": 23.25,
+    "cases": 579212,
+    "death100k": 146.96,
+    "medage": 41.4
+  },
+  {
+    "country": "Benin",
+    "smokingrate": 9.35,
+    "cases": 3015,
+    "death100k": 0.37,
+    "medage": 18.2
+  },
+  {
+    "country": "Bolivia",
+    "smokingrate": 23.8,
+    "cases": 144810,
+    "death100k": 78.95,
+    "medage": 24.3
+  },
+  {
+    "country": "Bosnia and Herzegovina",
+    "smokingrate": 38.6,
+    "cases": 89085,
+    "death100k": 82.04,
+    "medage": 42.1
+  },
+  {
+    "country": "Brazil",
+    "smokingrate": 15.3,
+    "cases": 6386787,
+    "death100k": 82.98,
+    "medage": 32.6
+  },
+  {
+    "country": "Brunei",
+    "smokingrate": 16.2,
+    "cases": 151,
+    "death100k": 0.7,
+    "medage": 30.2
+  },
+  {
+    "country": "Bulgaria",
+    "smokingrate": 35.3,
+    "cases": 148775,
+    "death100k": 59.62,
+    "medage": 42.7
+  },
+  {
+    "country": "Burkina Faso",
+    "smokingrate": 20.25,
+    "cases": 2931,
+    "death100k": 0.34,
+    "medage": 17.3
+  },
+  {
+    "country": "Cameroon",
+    "smokingrate": 22.35,
+    "cases": 24487,
+    "death100k": 1.75,
+    "medage": 18.5
+  },
+  {
+    "country": "Canada",
+    "smokingrate": 14.95,
+    "cases": 387052,
+    "death100k": 33,
+    "medage": 42.2
+  },
+  {
+    "country": "Chile",
+    "smokingrate": 38,
+    "cases": 552864,
+    "death100k": 82.38,
+    "medage": 34.4
+  },
+  {
+    "country": "China",
+    "smokingrate": 24.7,
+    "cases": 92993,
+    "death100k": 0.34,
+    "medage": 37.4
+  },
+  {
+    "country": "Colombia",
+    "smokingrate": 11.1,
+    "cases": 1324792,
+    "death100k": 74.39,
+    "medage": 30
+  },
+  {
+    "country": "Comoros",
+    "smokingrate": 14.55,
+    "cases": 613,
+    "death100k": 0.84,
+    "medage": 19.9
+  },
+  {
+    "country": "Costa Rica",
+    "smokingrate": 13.4,
+    "cases": 140172,
+    "death100k": 34.62,
+    "medage": 31.3
+  },
+  {
+    "country": "Croatia",
+    "smokingrate": 36.45,
+    "cases": 131342,
+    "death100k": 45.51,
+    "medage": 43
+  },
+  {
+    "country": "Cuba",
+    "smokingrate": 35.25,
+    "cases": 8381,
+    "death100k": 1.2,
+    "medage": 41.5
+  },
+  {
+    "country": "Denmark",
+    "smokingrate": 17,
+    "cases": 82470,
+    "death100k": 14.59,
+    "medage": 42.2
+  },
+  {
+    "country": "Dominican Republic",
+    "smokingrate": 14.1,
+    "cases": 144302,
+    "death100k": 21.95,
+    "medage": 28.1
+  },
+  {
+    "country": "Ecuador",
+    "smokingrate": 8.65,
+    "cases": 193673,
+    "death100k": 79.03,
+    "medage": 27.7
+  },
+  {
+    "country": "Egypt",
+    "smokingrate": 25.1,
+    "cases": 116303,
+    "death100k": 6.77,
+    "medage": 23.9
+  },
+  {
+    "country": "Estonia",
+    "smokingrate": 33.05,
+    "cases": 12497,
+    "death100k": 9.16,
+    "medage": 42.7
+  },
+  {
+    "country": "Ethiopia",
+    "smokingrate": 4.7,
+    "cases": 110554,
+    "death100k": 1.56,
+    "medage": 17.9
+  },
+  {
+    "country": "Finland",
+    "smokingrate": 20.85,
+    "cases": 25462,
+    "death100k": 7.23,
+    "medage": 42.5
+  },
+  {
+    "country": "France",
+    "smokingrate": 27.7,
+    "cases": 2275429,
+    "death100k": 78.85,
+    "medage": 41.4
+  },
+  {
+    "country": "Georgia",
+    "smokingrate": 31.7,
+    "cases": 139343,
+    "death100k": 34.92,
+    "medage": 38.1
+  },
+  {
+    "country": "Germany",
+    "smokingrate": 30.35,
+    "cases": 1094678,
+    "death100k": 20.71,
+    "medage": 47.1
+  },
+  {
+    "country": "Ghana",
+    "smokingrate": 6.75,
+    "cases": 51667,
+    "death100k": 1.09,
+    "medage": 21.1
+  },
+  {
+    "country": "Greece",
+    "smokingrate": 42.65,
+    "cases": 107470,
+    "death100k": 23.46,
+    "medage": 44.5
+  },
+  {
+    "country": "Haiti",
+    "smokingrate": 12.3,
+    "cases": 9296,
+    "death100k": 2.09,
+    "medage": 23
+  },
+  {
+    "country": "Honduras",
+    "smokingrate": 17.7,
+    "cases": 108253,
+    "death100k": 30.44,
+    "medage": 23
+  },
+  {
+    "country": "Hungary",
+    "smokingrate": 28.4,
+    "cases": 221073,
+    "death100k": 50.95,
+    "medage": 42.3
+  },
+  {
+    "country": "Iceland",
+    "smokingrate": 16.05,
+    "cases": 5413,
+    "death100k": 7.64,
+    "medage": 36.5
+  },
+  {
+    "country": "India",
+    "smokingrate": 11.15,
+    "cases": 9462809,
+    "death100k": 10.17,
+    "medage": 28.1
+  },
+  {
+    "country": "Indonesia",
+    "smokingrate": 39.9,
+    "cases": 543975,
+    "death100k": 6.38,
+    "medage": 30.2
+  },
+  {
+    "country": "Iran",
+    "smokingrate": 11.1,
+    "cases": 975951,
+    "death100k": 59.45,
+    "medage": 30.3
+  },
+  {
+    "country": "Ireland",
+    "smokingrate": 22.15,
+    "cases": 72798,
+    "death100k": 42.63,
+    "medage": 36.8
+  },
+  {
+    "country": "Israel",
+    "smokingrate": 30.25,
+    "cases": 338127,
+    "death100k": 32.38,
+    "medage": 29.9
+  },
+  {
+    "country": "Italy",
+    "smokingrate": 24,
+    "cases": 1620901,
+    "death100k": 93.26,
+    "medage": 45.5
+  },
+  {
+    "country": "Jamaica",
+    "smokingrate": 17.9,
+    "cases": 10810,
+    "death100k": 8.79,
+    "medage": 26
+  },
+  {
+    "country": "Japan",
+    "smokingrate": 22.15,
+    "cases": 150976,
+    "death100k": 1.67,
+    "medage": 47.3
+  },
+  {
+    "country": "Jordan",
+    "smokingrate": 40.45,
+    "cases": 223617,
+    "death100k": 28.14,
+    "medage": 22.5
+  },
+  {
+    "country": "Kazakhstan",
+    "smokingrate": 26.6,
+    "cases": 175565,
+    "death100k": 13.32,
+    "medage": 30.6
+  },
+  {
+    "country": "Kenya",
+    "smokingrate": 13.35,
+    "cases": 84169,
+    "death100k": 2.87,
+    "medage": 19.7
+  },
+  {
+    "country": "Kyrgyzstan",
+    "smokingrate": 27,
+    "cases": 73178,
+    "death100k": 20.19,
+    "medage": 26.5
+  },
+  {
+    "country": "Latvia",
+    "smokingrate": 36.6,
+    "cases": 17687,
+    "death100k": 10.9,
+    "medage": 43.6
+  },
+  {
+    "country": "Lebanon",
+    "smokingrate": 38.2,
+    "cases": 129455,
+    "death100k": 15.08,
+    "medage": 30.5
+  },
+  {
+    "country": "Lesotho",
+    "smokingrate": 27.75,
+    "cases": 2137,
+    "death100k": 2.09,
+    "medage": 24.2
+  },
+  {
+    "country": "Liberia",
+    "smokingrate": 15,
+    "cases": 1595,
+    "death100k": 1.72,
+    "medage": 17.8
+  },
+  {
+    "country": "Lithuania",
+    "smokingrate": 30.15,
+    "cases": 62515,
+    "death100k": 18.61,
+    "medage": 43.7
+  },
+  {
+    "country": "Luxembourg",
+    "smokingrate": 23.6,
+    "cases": 35129,
+    "death100k": 54.3,
+    "medage": 39.3
+  },
+  {
+    "country": "Malawi",
+    "smokingrate": 15.7,
+    "cases": 6028,
+    "death100k": 1.02,
+    "medage": 16.5
+  },
+  {
+    "country": "Malaysia",
+    "smokingrate": 22.2,
+    "cases": 67169,
+    "death100k": 1.15,
+    "medage": 28.5
+  },
+  {
+    "country": "Mali",
+    "smokingrate": 20,
+    "cases": 4762,
+    "death100k": 0.84,
+    "medage": 15.8
+  },
+  {
+    "country": "Malta",
+    "smokingrate": 24.95,
+    "cases": 9975,
+    "death100k": 29.16,
+    "medage": 41.8
+  },
+  {
+    "country": "Mauritania",
+    "smokingrate": 23.85,
+    "cases": 8710,
+    "death100k": 4.02,
+    "medage": 20.5
+  },
+  {
+    "country": "Mauritius",
+    "smokingrate": 21.7,
+    "cases": 505,
+    "death100k": 0.79,
+    "medage": 35.3
+  },
+  {
+    "country": "Mexico",
+    "smokingrate": 13.7,
+    "cases": 1122362,
+    "death100k": 84.61,
+    "medage": 28.3
+  },
+  {
+    "country": "Moldova",
+    "smokingrate": 25.55,
+    "cases": 108863,
+    "death100k": 65.51,
+    "medage": 36.7
+  },
+  {
+    "country": "Morocco",
+    "smokingrate": 23.4,
+    "cases": 359844,
+    "death100k": 16.42,
+    "medage": 29.3
+  },
+  {
+    "country": "Mozambique",
+    "smokingrate": 18.65,
+    "cases": 15770,
+    "death100k": 0.44,
+    "medage": 17.2
+  },
+  {
+    "country": "Myanmar",
+    "smokingrate": 19,
+    "cases": 92189,
+    "death100k": 3.67,
+    "medage": 28.2
+  },
+  {
+    "country": "Namibia",
+    "smokingrate": 25.15,
+    "cases": 14416,
+    "death100k": 6.17,
+    "medage": 21.2
+  },
+  {
+    "country": "Nepal",
+    "smokingrate": 24.1,
+    "cases": 233452,
+    "death100k": 5.44,
+    "medage": 24.1
+  },
+  {
+    "country": "Netherlands",
+    "smokingrate": 25.05,
+    "cases": 536129,
+    "death100k": 55.24,
+    "medage": 42.6
+  },
+  {
+    "country": "Niger",
+    "smokingrate": 9.4,
+    "cases": 1586,
+    "death100k": 0.33,
+    "medage": 15.4
+  },
+  {
+    "country": "Nigeria",
+    "smokingrate": 9.25,
+    "cases": 67838,
+    "death100k": 0.6,
+    "medage": 18.4
+  },
+  {
+    "country": "Norway",
+    "smokingrate": 22.25,
+    "cases": 36591,
+    "death100k": 6.28,
+    "medage": 39.2
+  },
+  {
+    "country": "Oman",
+    "smokingrate": 11,
+    "cases": 123908,
+    "death100k": 29.61,
+    "medage": 25.6
+  },
+  {
+    "country": "Pakistan",
+    "smokingrate": 22.45,
+    "cases": 403311,
+    "death100k": 3.85,
+    "medage": 23.8
+  },
+  {
+    "country": "Panama",
+    "smokingrate": 6.6,
+    "cases": 167311,
+    "death100k": 74.17,
+    "medage": 29.2
+  },
+  {
+    "country": "Paraguay",
+    "smokingrate": 18.1,
+    "cases": 83479,
+    "death100k": 25.46,
+    "medage": 28.2
+  },
+  {
+    "country": "Philippines",
+    "smokingrate": 25.75,
+    "cases": 432925,
+    "death100k": 7.89,
+    "medage": 23.5
+  },
+  {
+    "country": "Poland",
+    "smokingrate": 28.05,
+    "cases": 999924,
+    "death100k": 46.34,
+    "medage": 40.7
+  },
+  {
+    "country": "Portugal",
+    "smokingrate": 22.6,
+    "cases": 300462,
+    "death100k": 44.52,
+    "medage": 42.2
+  },
+  {
+    "country": "Republic of the Congo",
+    "smokingrate": 22.45,
+    "cases": 12859,
+    "death100k": 6.39,
+    "medage": 19.7
+  },
+  {
+    "country": "Romania",
+    "smokingrate": 29.8,
+    "cases": 479634,
+    "death100k": 59.21,
+    "medage": 41.1
+  },
+  {
+    "country": "Russia",
+    "smokingrate": 40.9,
+    "cases": 2302062,
+    "death100k": 27.72,
+    "medage": 39.6
+  },
+  {
+    "country": "Saudi Arabia",
+    "smokingrate": 15.4,
+    "cases": 357623,
+    "death100k": 17.53,
+    "medage": 27.5
+  },
+  {
+    "country": "Senegal",
+    "smokingrate": 12.05,
+    "cases": 16107,
+    "death100k": 2.1,
+    "medage": 18.8
+  },
+  {
+    "country": "Serbia",
+    "smokingrate": 41.65,
+    "cases": 183437,
+    "death100k": 23.66,
+    "medage": 42.6
+  },
+  {
+    "country": "Sierra Leone",
+    "smokingrate": 36,
+    "cases": 2413,
+    "death100k": 0.97,
+    "medage": 19
+  },
+  {
+    "country": "Singapore",
+    "smokingrate": 16.5,
+    "cases": 58228,
+    "death100k": 0.51,
+    "medage": 34.6
+  },
+  {
+    "country": "Slovakia",
+    "smokingrate": 28.65,
+    "cases": 107183,
+    "death100k": 15.94,
+    "medage": 40.5
+  },
+  {
+    "country": "Slovenia",
+    "smokingrate": 20.2,
+    "cases": 77135,
+    "death100k": 72.07,
+    "medage": 44.5
+  },
+  {
+    "country": "South Africa",
+    "smokingrate": 18.95,
+    "cases": 792299,
+    "death100k": 37.46,
+    "medage": 27.1
+  },
+  {
+    "country": "South Korea",
+    "smokingrate": 27,
+    "cases": 35163,
+    "death100k": 1.02,
+    "medage": 41.8
+  },
+  {
+    "country": "Spain",
+    "smokingrate": 29.2,
+    "cases": 1656444,
+    "death100k": 97.4,
+    "medage": 42.7
+  },
+  {
+    "country": "Sri Lanka",
+    "smokingrate": 14.4,
+    "cases": 24532,
+    "death100k": 0.56,
+    "medage": 32.8
+  },
+  {
+    "country": "Sweden",
+    "smokingrate": 20.6,
+    "cases": 260758,
+    "death100k": 66.76,
+    "medage": 41.2
+  },
+  {
+    "country": "Switzerland",
+    "smokingrate": 23.3,
+    "cases": 330874,
+    "death100k": 58,
+    "medage": 42.4
+  },
+  {
+    "country": "Tanzania",
+    "smokingrate": 15.65,
+    "cases": 509,
+    "death100k": 0.04,
+    "medage": 17.7
+  },
+  {
+    "country": "Thailand",
+    "smokingrate": 21.85,
+    "cases": 4026,
+    "death100k": 0.09,
+    "medage": 37.7
+  },
+  {
+    "country": "Turkey",
+    "smokingrate": 25.95,
+    "cases": 668957,
+    "death100k": 16.93,
+    "medage": 30.9
+  },
+  {
+    "country": "Uganda",
+    "smokingrate": 9.65,
+    "cases": 21035,
+    "death100k": 0.48,
+    "medage": 15.8
+  },
+  {
+    "country": "Ukraine",
+    "smokingrate": 31.7,
+    "cases": 765117,
+    "death100k": 29.05,
+    "medage": 40.6
+  },
+  {
+    "country": "United Kingdom",
+    "smokingrate": 19.15,
+    "cases": 1647230,
+    "death100k": 88.96,
+    "medage": 40.5
+  },
+  {
+    "country": "United States",
+    "smokingrate": 17.25,
+    "cases": 13721304,
+    "death100k": 82.72,
+    "medage": 38.1
+  },
+  {
+    "country": "Uruguay",
+    "smokingrate": 23.05,
+    "cases": 6024,
+    "death100k": 2.26,
+    "medage": 35
+  },
+  {
+    "country": "Uzbekistan",
+    "smokingrate": 13.1,
+    "cases": 73276,
+    "death100k": 1.85,
+    "medage": 28.6
+  },
+  {
+    "country": "Vietnam",
+    "smokingrate": 24.2,
+    "cases": 1351,
+    "death100k": 0.04,
+    "medage": 30.5
+  },
+  {
+    "country": "Zambia",
+    "smokingrate": 15.55,
+    "cases": 17665,
+    "death100k": 2.06,
+    "medage": 16.8
+  },
+  {
+    "country": "Zimbabwe",
+    "smokingrate": 16.65,
+    "cases": 10129,
+    "death100k": 1.92,
+    "medage": 20
+  }
+]
