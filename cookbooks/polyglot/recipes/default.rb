@@ -4,7 +4,7 @@ ubuntu_release = 'focal'
 ubuntu_version = '20.04'
 username = 'vagrant'
 user_home = '/home/' + username
-project_home = user_home + '/project/mq-demos' # you may need to change the working directory to match your project
+project_home = 'vagrant'  # you may need to change the working directory to match your project
 
 
 python3_packages = '/usr/local/lib/python3.8/dist-packages'
@@ -192,8 +192,8 @@ end
 #  creates "/opt/#{graalvm_directory}/bin/lli"
 #end
 
-#execute 'python3 server.py &' do
-#  cwd project_home
-#  user username
-#  environment 'HOME' => user_home
-#end
+execute 'python3 server.py &' do
+  cwd project_home
+  user username
+  environment 'HOME' => user_home
+end

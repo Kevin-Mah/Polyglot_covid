@@ -79,11 +79,13 @@ type Deathout struct {
     Agecorr float64
 }
 
+// for scatterplot
 type XY struct {
     X float64   `json:"x"`
     Y float64   `json:"y"`
 }
 
+// calculate day moving average of array
 func sum_div(array []int, day int) int {  
  result := 0  
  for _, v := range array {  
@@ -92,6 +94,7 @@ func sum_div(array []int, day int) int {
  return (result/day)
 }
 
+// return provout of province data given url and population
 func Prov_data(url string, popul int) Provout{
     resp, err := http.Get(url)
     if err != nil {
@@ -120,6 +123,7 @@ func Prov_data(url string, popul int) Provout{
 }
 
 // Simular to https://www.geeksforgeeks.org/program-find-correlation-coefficient/
+// for calculating correlation coefficient
 func Correlation(x []float64, y[]float64, n int) float64 {
     
     sum_X := float64(0)
@@ -155,6 +159,7 @@ func Correlation(x []float64, y[]float64, n int) float64 {
 }
 
 func main() {
+    // canada data
     url := "https://api.covid19tracker.ca/reports?fill_dates&stat&date&after&before"
 
     resp, err := http.Get(url)
@@ -223,7 +228,7 @@ func main() {
     file1, _ := json.MarshalIndent(finalprov, "", " ")
     _ = ioutil.WriteFile("data/prov.json", file1, 0644)
     
-    // Reading local file
+    // Reading local static file
     jsonfile, err := os.Open("deathdata.json")
     if err != nil {
         log.Fatal(err)
@@ -241,6 +246,7 @@ func main() {
     
     var n Deathout
     
+    // store country, cases, % of country that smokes, deaths per 100,000, ave age of country
     for _, x := range darray {
         n.Country = append(n.Country, x.Country)
         n.Cases = append(n.Cases, x.Cases)
@@ -254,6 +260,7 @@ func main() {
     var ans1 float64
     var waitgroup sync.WaitGroup
     
+    // calculate correlations concurrently
     waitgroup.Add(1)
     go func() {
         ans = Correlation(n.Smk, n.D100k, len(n.D100k))
@@ -273,6 +280,7 @@ func main() {
     n.Smkcorr = ans
     n.Agecorr = ans1
     
+    // generate x,y coordinates for scatterplot
     i := 0
     for i < len(n.D100k) {
         n.XYsmk = append(n.XYsmk, XY{X: n.D100k[i], Y: n.Smk[i] })
