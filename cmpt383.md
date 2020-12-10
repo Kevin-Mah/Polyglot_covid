@@ -10,7 +10,8 @@ The site features and interactive map and charts that display information.
 - Go for getting online data, processing the data, and making calculations concurrently.
 
 # Inter-language communication methods
-The python rpc server upon startup makes a system call to run the go program and then listens to requests. The go program retrieves and processes online information and creates json files that are read in the javascript.
+The python rpc server upon startup makes a system call to run the go program and then listens to requests to send the javascript.
+The go program retrieves and processes online information and creates json files that are read in the javascript.
 
 # Deployment technology
 Vagrant VM
